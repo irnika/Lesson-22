@@ -1,7 +1,7 @@
 import React from "react";
 
 function User(props) {
-    return <li> firstName: {props.user.firstName}, lastName: {props.user.lastName}, age: {props.user.age}, job: {props.user.job}</li>;
+    return <li> firstName: {props.user.firstName}, lastName: {props.user.lastName}, fullName: {props.user.firstName + " "  + props.user.lastName }, age: {props.user.age + 5}, job: {props.user.job}</li>;
 }
 
 function UserList() {
